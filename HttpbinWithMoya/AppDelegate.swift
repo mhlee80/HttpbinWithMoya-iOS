@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import SwiftyBeaver
+
+let log = SwiftyBeaver.self
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+  var window: UIWindow?
+  
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    log.addDestination(ConsoleDestination())
+    log.info("")
+    
+    if #available(iOS 13, *) {} else {
+      window = UIWindow()
+      window?.rootViewController = ViewController()
+      window?.makeKeyAndVisible()
+    }
+    
     return true
   }
 

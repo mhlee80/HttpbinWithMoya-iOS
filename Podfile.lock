@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - SwiftyBeaver (1.9.1)
+
+DEPENDENCIES:
+  - Moya (~> 14.0)
+  - SwiftyBeaver
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SwiftyBeaver: a1f5691458561414bcfab51874b2b7445451602b
+
+PODFILE CHECKSUM: 5dbbdcd5ec4d65510e0d24d1f2206394b822f3c1
+
+COCOAPODS: 1.8.4

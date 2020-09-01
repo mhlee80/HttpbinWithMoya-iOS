@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40366C084F218E234DB48E56 /* Pods_HttpbinWithMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4983EDBA6CA407A7E6AF5F4 /* Pods_HttpbinWithMoya.framework */; };
 		82FD39CE24FCDF5300AC2981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD39CD24FCDF5300AC2981 /* AppDelegate.swift */; };
 		82FD39D024FCDF5300AC2981 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD39CF24FCDF5300AC2981 /* SceneDelegate.swift */; };
 		82FD39D224FCDF5300AC2981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD39D124FCDF5300AC2981 /* ViewController.swift */; };
-		82FD39D524FCDF5300AC2981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FD39D324FCDF5300AC2981 /* Main.storyboard */; };
 		82FD39D724FCDF5400AC2981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FD39D624FCDF5400AC2981 /* Assets.xcassets */; };
 		82FD39DA24FCDF5400AC2981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FD39D824FCDF5400AC2981 /* LaunchScreen.storyboard */; };
+		82FD39E224FCE88200AC2981 /* HttpbinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD39E124FCE88200AC2981 /* HttpbinService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03CD4E30EABAF8ED865424A5 /* Pods-HttpbinWithMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpbinWithMoya.debug.xcconfig"; path = "Target Support Files/Pods-HttpbinWithMoya/Pods-HttpbinWithMoya.debug.xcconfig"; sourceTree = "<group>"; };
+		73CBCFC0B0686464695F79F1 /* Pods-HttpbinWithMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpbinWithMoya.release.xcconfig"; path = "Target Support Files/Pods-HttpbinWithMoya/Pods-HttpbinWithMoya.release.xcconfig"; sourceTree = "<group>"; };
 		82FD39CA24FCDF5300AC2981 /* HttpbinWithMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpbinWithMoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FD39CD24FCDF5300AC2981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82FD39CF24FCDF5300AC2981 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82FD39D124FCDF5300AC2981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82FD39D424FCDF5300AC2981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82FD39D624FCDF5400AC2981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82FD39D924FCDF5400AC2981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FD39DB24FCDF5400AC2981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FD39E124FCE88200AC2981 /* HttpbinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpbinService.swift; sourceTree = "<group>"; };
+		A4983EDBA6CA407A7E6AF5F4 /* Pods_HttpbinWithMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpbinWithMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40366C084F218E234DB48E56 /* Pods_HttpbinWithMoya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663076FE583895C0851BD7A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CD4E30EABAF8ED865424A5 /* Pods-HttpbinWithMoya.debug.xcconfig */,
+				73CBCFC0B0686464695F79F1 /* Pods-HttpbinWithMoya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		82FD39C124FCDF5300AC2981 = {
 			isa = PBXGroup;
 			children = (
 				82FD39CC24FCDF5300AC2981 /* HttpbinWithMoya */,
 				82FD39CB24FCDF5300AC2981 /* Products */,
+				663076FE583895C0851BD7A3 /* Pods */,
+				A8935B0BEF8F9AB9B2273A38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +75,20 @@
 				82FD39CD24FCDF5300AC2981 /* AppDelegate.swift */,
 				82FD39CF24FCDF5300AC2981 /* SceneDelegate.swift */,
 				82FD39D124FCDF5300AC2981 /* ViewController.swift */,
-				82FD39D324FCDF5300AC2981 /* Main.storyboard */,
+				82FD39E124FCE88200AC2981 /* HttpbinService.swift */,
 				82FD39D624FCDF5400AC2981 /* Assets.xcassets */,
 				82FD39D824FCDF5400AC2981 /* LaunchScreen.storyboard */,
 				82FD39DB24FCDF5400AC2981 /* Info.plist */,
 			);
 			path = HttpbinWithMoya;
+			sourceTree = "<group>";
+		};
+		A8935B0BEF8F9AB9B2273A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4983EDBA6CA407A7E6AF5F4 /* Pods_HttpbinWithMoya.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82FD39DE24FCDF5400AC2981 /* Build configuration list for PBXNativeTarget "HttpbinWithMoya" */;
 			buildPhases = (
+				0122ADCFAB2BF42774D4F3B0 /* [CP] Check Pods Manifest.lock */,
 				82FD39C624FCDF5300AC2981 /* Sources */,
 				82FD39C724FCDF5300AC2981 /* Frameworks */,
 				82FD39C824FCDF5300AC2981 /* Resources */,
+				A32C01FB3E5D29E46516BEE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +153,52 @@
 			files = (
 				82FD39DA24FCDF5400AC2981 /* LaunchScreen.storyboard in Resources */,
 				82FD39D724FCDF5400AC2981 /* Assets.xcassets in Resources */,
-				82FD39D524FCDF5300AC2981 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0122ADCFAB2BF42774D4F3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HttpbinWithMoya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32C01FB3E5D29E46516BEE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HttpbinWithMoya/Pods-HttpbinWithMoya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HttpbinWithMoya/Pods-HttpbinWithMoya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HttpbinWithMoya/Pods-HttpbinWithMoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82FD39C624FCDF5300AC2981 /* Sources */ = {
@@ -139,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82FD39D224FCDF5300AC2981 /* ViewController.swift in Sources */,
+				82FD39E224FCE88200AC2981 /* HttpbinService.swift in Sources */,
 				82FD39CE24FCDF5300AC2981 /* AppDelegate.swift in Sources */,
 				82FD39D024FCDF5300AC2981 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		82FD39D324FCDF5300AC2981 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82FD39D424FCDF5300AC2981 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82FD39D824FCDF5400AC2981 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +342,7 @@
 		};
 		82FD39DF24FCDF5400AC2981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CD4E30EABAF8ED865424A5 /* Pods-HttpbinWithMoya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +361,7 @@
 		};
 		82FD39E024FCDF5400AC2981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CBCFC0B0686464695F79F1 /* Pods-HttpbinWithMoya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
